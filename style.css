@@ -1,0 +1,22 @@
+/*
+	Fontes:
+	
+	font-family: 'Phudu', cursive;
+	
+	font-family: 'Sarala', sans-serif;
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300;400&family=Sarala&display=swap');
+
+
+
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
