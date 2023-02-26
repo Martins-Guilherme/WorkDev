@@ -5,18 +5,44 @@
 	
 	font-family: 'Sarala', sans-serif;
 
+
+
+	Paleta de cores:
+
+2° Cores
+
+	#C7B6A1 <<<---- Background
+
+	#524146 <<<----- Font-color
+
+
+
+2° cores
+
+	#B5A377 <------ Background --- Elements
+
+
+	#42332C <<----- Font color --- Elemento
 */
 
 
 @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300;400&family=Sarala&display=swap');
 
-
-
-
-
-
 *{
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+}
+
+.foto-perfil{
+	width: 60px;
+	height: 60px;
+}
+.foto-engrenagem{
+	width: 60px;
+	height: 60px;		
+}
+
+#container{
+	display: flex;
 }
