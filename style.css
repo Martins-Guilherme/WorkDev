@@ -45,4 +45,14 @@
 
 #container{
 	display: flex;
+	flex-basis: 30px;
+	justify-content: space-around;
+}
+
+.marca-logo{
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	border: 1px solid red;
+	align-items: center;
 }
