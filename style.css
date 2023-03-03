@@ -19,7 +19,7 @@
 
 1° cores
 
-	#B5A377 <------ Background --- Elements
+	#B5A377 -- rgba(181, 163, 119, 0.3) <------ Background --- Elements
 
 
 	#42332C <<----- Font color --- Elemento
@@ -32,6 +32,8 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	max-width: 100%;
+	max-height: 3000px;
 }
 .foto-perfil{
 	width: 60px;
@@ -45,10 +47,10 @@
 #container{
 	background-color: rgba(181, 163, 119, 0.6);
 	display: flex;
-	flex-basis: 30px;
 	justify-content: space-around;
 	align-items: center;
-	height: 150px;
+	
+
 }
 
 .marca-logo{
@@ -56,11 +58,38 @@
 	align-items: center;
 	gap: 40px;
 }
+.navegacao{
+	display: flex;
+	gap: 10px;
+	padding: 30px;
 
+}
+
+.img-perfil-tex{
+}
+.engrenagem-text{
+}
+
+.text-engrenagem{
+	font-size: 1.01em;
+}
 .container-menu{
 	display: flex;
 }
 
 .foto-perfil{
 	border-radius: 60px;
+}
+
+main{
+	margin: 20px 80px 0 80px;
+}
+.container-pricipal{
+	background-color: rgba(181, 163, 119, 0.3); /* Hexa - #B5A377 */
+	height: 500px;
+	box-shadow: 2px;
+	border-radius: 50px;
+}
+.conmentarios{
+	font-family: 'Sarala', sans-serif
 }
